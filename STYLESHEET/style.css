@@ -7,6 +7,14 @@ body{
     background-color: #161616;
     color: white;
 }
+figure{
+    text-align: center;
+}
+.images{
+     width:100%;
+    max-width:1000px;
+    text-align: center;
+}
 /*------------HEADER------------*/
 
 header #logos img{
@@ -53,6 +61,37 @@ nav{
     color: white;
     text-align: center;
     margin: 0.1em;
-    font-size: 3em;
+    font-size: 200%;
     padding: 1em;
+}
+#general{
+    margin: -110em 0 0 0
+}
+/*------------SECTION------------*/
+.titulos{
+    text-align: center;
+    font-size: 3em;
+    margin: 1em;
+    border-bottom: 2px white solid;
+    padding: 0.5em;
+}
+p{
+    text-align: justify;
+    font-size: 2em;
+    padding: 1em;
+}
+.pregunta{
+    text-align: center;
+    margin: 1em;
+}
+#redes{
+    margin: 1em;
+    overflow: hidden;
+}
+#redes figure{
+    width: 33%;
+    float: left
+}
+#redes img{
+    width: 10em
 }
