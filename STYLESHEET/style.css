@@ -9,6 +9,50 @@ body{
 }
 /*------------HEADER------------*/
 
-header img{
+header #logos img{
     width: 10em;
+    display: inline-block;
+    padding: 2em;
+    position: absolute;
+}
+#logos figure{
+   margin: 1em 0 0 0;
+    
+}
+.right{
+    position: relative;
+    right: 0;
+    margin: 0 5% 0 0;
+}
+.left{
+    position: relative;
+    left: 0;
+    margin: 0 0 0 5%;
+}
+/*------------NAV------------*/
+nav{
+    padding: 10em 0 150em 0;
+    margin: 1% -8% 1% 1%;
+    text-align: center;
+}
+.menu_boton figure{
+    width: 30%;
+    float: left;
+    height: 40em;
+    overflow: hidden;
+    border: 0.3em solid white;
+    
+    
+}
+.menu_boton div{
+    position: relative;
+}
+.menu_boton p{
+    position: absolute;
+    top: 0;
+    color: white;
+    text-align: center;
+    margin: 0.1em;
+    font-size: 3em;
+    padding: 1em;
 }
