@@ -21,44 +21,50 @@
   </head> 
   <body>
      <header>
-         <div id="menu">
-         <div id="logos">
-         <figure >
-             <a href="www.mini.com.co">
+         <div class="menu">
+         <div class="logos">
+         <figure>
+             <a href="www.mini.com.co"
+                target="_blank">
              <img class="left"
                   src="IMAGES/car_logo_PNG1652.png">
              </a>
          </figure>
+        </div>
+             <div class="logos">
          <figure class="right">
-             <a href="www.mini.com.co">
+             <a href="http://en.wikipedia.org/wiki/James_Bond"
+                target="_blank">
              <img class="right"
                   src="IMAGES/007_logo.png">
              </a>
          </figure>
+        </div>
          </div>
          </div>
      </header> 
      <nav>
-         <a href="">
+         <a href="#mision">
          <div class="menu_boton">
-            <div><figure class="red">
+            <div class="menu_cuadro">
+                <figure class="red">
              <img src="IMAGES/red.jpg">
                <p>MISIÓN</p>
                 </figure></div>
              </a>
-        <a href="">
+        <a href="#mapa">
             </div>
          <div class="menu_boton">
-             <div><figure class="yellow">
+             <div  class="menu_cuadro"><figure class="yellow">
              <img src="IMAGES/yellow.jpg">
                <p>MAPA</p>
             </figure>
              </div>
              </a>
          </div>
-        <a href="">
+        <a href="#redes">
             <div class="menu_boton">
-                <div><figure class="blue">
+                <div class="menu_cuadro"><figure class="blue">
              <img src="IMAGES/blue.jpg">
                <p>REDES</p>
             </figure>
@@ -67,38 +73,52 @@
           </div>
      </nav>
      <div id="general">
-     <section>
+     <div class="full">
+         <section>
+             
          <article id="mision">
+             <div class="mitad">
             <p class="titulos">MISIÓN</p>
             <p>Ahora debes demostrar tus habilidades, en una serie de actividades que te posicionaran como un espía de alta clase, junto a las recompensas que esto conlleva.
 </p>
              <p class="pregunta">¿En verdad estás listo?
 </p>
+             </div>
+               <div class="mitad">  
              <figure>
                  <img class="images"
                       src="IMAGES/7025056-pierce-brosnan-007.jpg">
              </figure>
+             </div>
          </article>
-     </section>
-     <section>
+         </section></div>
+     <div class="full">
+         <section>
          <article id="mapa">
+             <div class="mitad">
             <p class="titulos">MAPA</p>
             <p>Bogotá, D.C. se ha convertido en la nueva base de los mejores agentes del mundo, pero asimismo algo de información se ha filtrado, con ayuda de nuestro sistema secreto recogeras la información dispersa por la ciudad.
 </p>
              <p class="pregunta">Sé más rapido
-</p>
+                 </p></div>
+             <div class="mitad">
              <figure>
-                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.5868266702264!2d-74.05399115!3d4.6675137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af5352f61a3%3A0xe6612fc88ae63dec!2sT+Zone%2C+Bogot%C3%A1%2C+Bogota%2C+Colombie!5e0!3m2!1sfr!2s!4v1424177215908" width="600" height="450" frameborder="0" style="border:0"></iframe>
+                 <iframe class="mapaa"
+                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.5868266702264!2d-74.05399115!3d4.6675137!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9af5352f61a3%3A0xe6612fc88ae63dec!2sT+Zone%2C+Bogot%C3%A1%2C+Bogota%2C+Colombie!5e0!3m2!1sfr!2s!4v1424177215908"></iframe>
              </figure>
+                 </div>
          </article>
-     </section>
-     <section>
+         </section></div>
+     <div class="full">
+         <section>
          <article id="redes">
+             <div class="mitad">
             <p class="titulos">REDES</p>
             <p>Para ayudarte, hemos desplegado nuestro satelite de información por el cual podrás obtener información en tiempo real de como lograr las actividades propuestas que te nombraran como el mejor espía del pais.
 </p>
              <p class="pregunta">Entra ahora
-</p>
+                 </p></div>
+             <div class="mitad">
              <div id="redes">
              <figure>
                  <img src="IMAGES/Diagramacion-03.png">
@@ -110,8 +130,10 @@
                  <img src="IMAGES/Diagramacion-06.png">
              </figure>
             </div>
+             </div>
          </article>
-     </section>
+         </section></div>
+         <div class="full">
          <div id="container_demo" >
     <a class="hiddenanchor" id="toregister"></a>
     <a class="hiddenanchor" id="tologin"></a>
@@ -135,25 +157,31 @@
                     <label for="mensaje" class="tumensaje" data-icon="p"> Captcha </label>
                     <input id="mensaje" name="mensaje" required="required" type="text" placeholder="" /> 
                 </p>
-                <p class="send"> 
-                    <input type="submit" value="Send" /> 
+                <p class="text_send"> 
+                    <input class="send" type="submit" value="Send" /> 
                 </p>
             </form>
          </div>     
     </div>
 </div> 
          </div>
+         </div>
       
      <footer>
-         <a href="http://www.skep.esy.es">
+         <div class="izq">
+         <a href="http://www.skep.esy.es"
+            target="_blank">
          <div>
          <figure>
              <img src="IMAGES/Diagramacion-02.png">
          </figure>
-         <p>esy.es</p>
+         <p>e s y . e s</p>
          </div>
      </a>
-         <p class="der">Toda la información aqui recopilada es de total privacidad, se reserva el derecho de contención y distribución de información a entes legales.</p>
+             </div>
+         <div class="der">
+         <p>Toda la información aqui recopilada es de total privacidad, se reserva el derecho de contención y distribución de información a entes legales.</p>
+            </div>
      </footer>
   </body>
  </html>
